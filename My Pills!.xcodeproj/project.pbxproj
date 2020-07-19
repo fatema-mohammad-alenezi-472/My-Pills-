@@ -1,0 +1,700 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C65CAE5124C4A12500FE3274 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE5024C4A12500FE3274 /* AppDelegate.swift */; };
+		C65CAE5324C4A12500FE3274 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE5224C4A12500FE3274 /* SceneDelegate.swift */; };
+		C65CAE5824C4A12500FE3274 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C65CAE5624C4A12500FE3274 /* Main.storyboard */; };
+		C65CAE5B24C4A12600FE3274 /* My_Pills_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE5924C4A12600FE3274 /* My_Pills_.xcdatamodeld */; };
+		C65CAE5D24C4A12C00FE3274 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C65CAE5C24C4A12C00FE3274 /* Assets.xcassets */; };
+		C65CAE6024C4A12C00FE3274 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C65CAE5E24C4A12C00FE3274 /* LaunchScreen.storyboard */; };
+		C65CAE6B24C4A12C00FE3274 /* My_Pills_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE6A24C4A12C00FE3274 /* My_Pills_Tests.swift */; };
+		C65CAE7624C4A12C00FE3274 /* My_Pills_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE7524C4A12C00FE3274 /* My_Pills_UITests.swift */; };
+		C65CAE9324C4A1B800FE3274 /* myRemindersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE8524C4A1B700FE3274 /* myRemindersVC.swift */; };
+		C65CAE9424C4A1B800FE3274 /* DatePopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE8624C4A1B700FE3274 /* DatePopupVC.swift */; };
+		C65CAE9524C4A1B800FE3274 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE8724C4A1B700FE3274 /* SecondViewController.swift */; };
+		C65CAE9624C4A1B800FE3274 /* PillsSettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE8824C4A1B700FE3274 /* PillsSettingVC.swift */; };
+		C65CAE9724C4A1B800FE3274 /* AddViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE8924C4A1B700FE3274 /* AddViewcontroller.swift */; };
+		C65CAE9824C4A1B800FE3274 /* TimePopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE8A24C4A1B700FE3274 /* TimePopupVC.swift */; };
+		C65CAE9924C4A1B800FE3274 /* File3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE8B24C4A1B700FE3274 /* File3.swift */; };
+		C65CAE9A24C4A1B800FE3274 /* CalenderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE8C24C4A1B700FE3274 /* CalenderVC.swift */; };
+		C65CAE9B24C4A1B800FE3274 /* BirthdayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE8D24C4A1B700FE3274 /* BirthdayVC.swift */; };
+		C65CAE9C24C4A1B800FE3274 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE8E24C4A1B800FE3274 /* File.swift */; };
+		C65CAE9D24C4A1B800FE3274 /* File2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE8F24C4A1B800FE3274 /* File2.swift */; };
+		C65CAE9E24C4A1B800FE3274 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE9024C4A1B800FE3274 /* FirstViewController.swift */; };
+		C65CAE9F24C4A1B800FE3274 /* ViewController.swift 15-02-17-346.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE9124C4A1B800FE3274 /* ViewController.swift 15-02-17-346.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C65CAE6724C4A12C00FE3274 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C65CAE4524C4A12500FE3274 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C65CAE4C24C4A12500FE3274;
+			remoteInfo = "My Pills!";
+		};
+		C65CAE7224C4A12C00FE3274 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C65CAE4524C4A12500FE3274 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C65CAE4C24C4A12500FE3274;
+			remoteInfo = "My Pills!";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C65CAE4D24C4A12500FE3274 /* My Pills!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Pills!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C65CAE5024C4A12500FE3274 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C65CAE5224C4A12500FE3274 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C65CAE5724C4A12500FE3274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C65CAE5A24C4A12600FE3274 /* My_Pills_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = My_Pills_.xcdatamodel; sourceTree = "<group>"; };
+		C65CAE5C24C4A12C00FE3274 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C65CAE5F24C4A12C00FE3274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C65CAE6124C4A12C00FE3274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C65CAE6624C4A12C00FE3274 /* My Pills!Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Pills!Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C65CAE6A24C4A12C00FE3274 /* My_Pills_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Pills_Tests.swift; sourceTree = "<group>"; };
+		C65CAE6C24C4A12C00FE3274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C65CAE7124C4A12C00FE3274 /* My Pills!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Pills!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C65CAE7524C4A12C00FE3274 /* My_Pills_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Pills_UITests.swift; sourceTree = "<group>"; };
+		C65CAE7724C4A12C00FE3274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C65CAE8524C4A1B700FE3274 /* myRemindersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = myRemindersVC.swift; path = "../../../View Controllers/myRemindersVC.swift"; sourceTree = "<group>"; };
+		C65CAE8624C4A1B700FE3274 /* DatePopupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatePopupVC.swift; path = "../../../View Controllers/DatePopupVC.swift"; sourceTree = "<group>"; };
+		C65CAE8724C4A1B700FE3274 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = "../../../View Controllers/SecondViewController.swift"; sourceTree = "<group>"; };
+		C65CAE8824C4A1B700FE3274 /* PillsSettingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PillsSettingVC.swift; path = "../../../View Controllers/PillsSettingVC.swift"; sourceTree = "<group>"; };
+		C65CAE8924C4A1B700FE3274 /* AddViewcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddViewcontroller.swift; path = "../../../View Controllers/AddViewcontroller.swift"; sourceTree = "<group>"; };
+		C65CAE8A24C4A1B700FE3274 /* TimePopupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimePopupVC.swift; path = "../../../View Controllers/TimePopupVC.swift"; sourceTree = "<group>"; };
+		C65CAE8B24C4A1B700FE3274 /* File3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = File3.swift; path = "../../../View Controllers/File3.swift"; sourceTree = "<group>"; };
+		C65CAE8C24C4A1B700FE3274 /* CalenderVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalenderVC.swift; path = "../../../View Controllers/CalenderVC.swift"; sourceTree = "<group>"; };
+		C65CAE8D24C4A1B700FE3274 /* BirthdayVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BirthdayVC.swift; path = "../../../View Controllers/BirthdayVC.swift"; sourceTree = "<group>"; };
+		C65CAE8E24C4A1B800FE3274 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = File.swift; path = "../../../View Controllers/File.swift"; sourceTree = "<group>"; };
+		C65CAE8F24C4A1B800FE3274 /* File2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = File2.swift; path = "../../../View Controllers/File2.swift"; sourceTree = "<group>"; };
+		C65CAE9024C4A1B800FE3274 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = "../../../View Controllers/FirstViewController.swift"; sourceTree = "<group>"; };
+		C65CAE9124C4A1B800FE3274 /* ViewController.swift 15-02-17-346.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ViewController.swift 15-02-17-346.swift"; path = "../../../View Controllers/ViewController.swift 15-02-17-346.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C65CAE4A24C4A12500FE3274 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C65CAE6324C4A12C00FE3274 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C65CAE6E24C4A12C00FE3274 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C65CAE4424C4A12500FE3274 = {
+			isa = PBXGroup;
+			children = (
+				C65CAE4F24C4A12500FE3274 /* My Pills! */,
+				C65CAE6924C4A12C00FE3274 /* My Pills!Tests */,
+				C65CAE7424C4A12C00FE3274 /* My Pills!UITests */,
+				C65CAE4E24C4A12500FE3274 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C65CAE4E24C4A12500FE3274 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C65CAE4D24C4A12500FE3274 /* My Pills!.app */,
+				C65CAE6624C4A12C00FE3274 /* My Pills!Tests.xctest */,
+				C65CAE7124C4A12C00FE3274 /* My Pills!UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C65CAE4F24C4A12500FE3274 /* My Pills! */ = {
+			isa = PBXGroup;
+			children = (
+				C65CAEA324C4A20400FE3274 /* pictures */,
+				C65CAEA124C4A1CB00FE3274 /* Delegates */,
+				C65CAE8424C4A17A00FE3274 /* View Controllers */,
+				C65CAE8324C4A15B00FE3274 /* StoryBoard */,
+				C65CAEA224C4A1E800FE3274 /* stuff */,
+			);
+			path = "My Pills!";
+			sourceTree = "<group>";
+		};
+		C65CAE6924C4A12C00FE3274 /* My Pills!Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C65CAE6A24C4A12C00FE3274 /* My_Pills_Tests.swift */,
+				C65CAE6C24C4A12C00FE3274 /* Info.plist */,
+			);
+			path = "My Pills!Tests";
+			sourceTree = "<group>";
+		};
+		C65CAE7424C4A12C00FE3274 /* My Pills!UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C65CAE7524C4A12C00FE3274 /* My_Pills_UITests.swift */,
+				C65CAE7724C4A12C00FE3274 /* Info.plist */,
+			);
+			path = "My Pills!UITests";
+			sourceTree = "<group>";
+		};
+		C65CAE8324C4A15B00FE3274 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				C65CAE5624C4A12500FE3274 /* Main.storyboard */,
+				C65CAE5E24C4A12C00FE3274 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		C65CAE8424C4A17A00FE3274 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C65CAE8924C4A1B700FE3274 /* AddViewcontroller.swift */,
+				C65CAE8D24C4A1B700FE3274 /* BirthdayVC.swift */,
+				C65CAE8C24C4A1B700FE3274 /* CalenderVC.swift */,
+				C65CAE8624C4A1B700FE3274 /* DatePopupVC.swift */,
+				C65CAE8E24C4A1B800FE3274 /* File.swift */,
+				C65CAE8F24C4A1B800FE3274 /* File2.swift */,
+				C65CAE8B24C4A1B700FE3274 /* File3.swift */,
+				C65CAE9024C4A1B800FE3274 /* FirstViewController.swift */,
+				C65CAE8524C4A1B700FE3274 /* myRemindersVC.swift */,
+				C65CAE8824C4A1B700FE3274 /* PillsSettingVC.swift */,
+				C65CAE8724C4A1B700FE3274 /* SecondViewController.swift */,
+				C65CAE8A24C4A1B700FE3274 /* TimePopupVC.swift */,
+				C65CAE9124C4A1B800FE3274 /* ViewController.swift 15-02-17-346.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C65CAEA124C4A1CB00FE3274 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				C65CAE5024C4A12500FE3274 /* AppDelegate.swift */,
+				C65CAE5224C4A12500FE3274 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		C65CAEA224C4A1E800FE3274 /* stuff */ = {
+			isa = PBXGroup;
+			children = (
+				C65CAE6124C4A12C00FE3274 /* Info.plist */,
+				C65CAE5924C4A12600FE3274 /* My_Pills_.xcdatamodeld */,
+			);
+			path = stuff;
+			sourceTree = "<group>";
+		};
+		C65CAEA324C4A20400FE3274 /* pictures */ = {
+			isa = PBXGroup;
+			children = (
+				C65CAE5C24C4A12C00FE3274 /* Assets.xcassets */,
+			);
+			path = pictures;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C65CAE4C24C4A12500FE3274 /* My Pills! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C65CAE7A24C4A12C00FE3274 /* Build configuration list for PBXNativeTarget "My Pills!" */;
+			buildPhases = (
+				C65CAE4924C4A12500FE3274 /* Sources */,
+				C65CAE4A24C4A12500FE3274 /* Frameworks */,
+				C65CAE4B24C4A12500FE3274 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Pills!";
+			productName = "My Pills!";
+			productReference = C65CAE4D24C4A12500FE3274 /* My Pills!.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C65CAE6524C4A12C00FE3274 /* My Pills!Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C65CAE7D24C4A12C00FE3274 /* Build configuration list for PBXNativeTarget "My Pills!Tests" */;
+			buildPhases = (
+				C65CAE6224C4A12C00FE3274 /* Sources */,
+				C65CAE6324C4A12C00FE3274 /* Frameworks */,
+				C65CAE6424C4A12C00FE3274 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C65CAE6824C4A12C00FE3274 /* PBXTargetDependency */,
+			);
+			name = "My Pills!Tests";
+			productName = "My Pills!Tests";
+			productReference = C65CAE6624C4A12C00FE3274 /* My Pills!Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C65CAE7024C4A12C00FE3274 /* My Pills!UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C65CAE8024C4A12C00FE3274 /* Build configuration list for PBXNativeTarget "My Pills!UITests" */;
+			buildPhases = (
+				C65CAE6D24C4A12C00FE3274 /* Sources */,
+				C65CAE6E24C4A12C00FE3274 /* Frameworks */,
+				C65CAE6F24C4A12C00FE3274 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C65CAE7324C4A12C00FE3274 /* PBXTargetDependency */,
+			);
+			name = "My Pills!UITests";
+			productName = "My Pills!UITests";
+			productReference = C65CAE7124C4A12C00FE3274 /* My Pills!UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C65CAE4524C4A12500FE3274 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "fatimah alenezi";
+				TargetAttributes = {
+					C65CAE4C24C4A12500FE3274 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					C65CAE6524C4A12C00FE3274 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = C65CAE4C24C4A12500FE3274;
+					};
+					C65CAE7024C4A12C00FE3274 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = C65CAE4C24C4A12500FE3274;
+					};
+				};
+			};
+			buildConfigurationList = C65CAE4824C4A12500FE3274 /* Build configuration list for PBXProject "My Pills!" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C65CAE4424C4A12500FE3274;
+			productRefGroup = C65CAE4E24C4A12500FE3274 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C65CAE4C24C4A12500FE3274 /* My Pills! */,
+				C65CAE6524C4A12C00FE3274 /* My Pills!Tests */,
+				C65CAE7024C4A12C00FE3274 /* My Pills!UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C65CAE4B24C4A12500FE3274 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C65CAE6024C4A12C00FE3274 /* LaunchScreen.storyboard in Resources */,
+				C65CAE5D24C4A12C00FE3274 /* Assets.xcassets in Resources */,
+				C65CAE5824C4A12500FE3274 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C65CAE6424C4A12C00FE3274 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C65CAE6F24C4A12C00FE3274 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C65CAE4924C4A12500FE3274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C65CAE9324C4A1B800FE3274 /* myRemindersVC.swift in Sources */,
+				C65CAE9924C4A1B800FE3274 /* File3.swift in Sources */,
+				C65CAE9624C4A1B800FE3274 /* PillsSettingVC.swift in Sources */,
+				C65CAE9D24C4A1B800FE3274 /* File2.swift in Sources */,
+				C65CAE9B24C4A1B800FE3274 /* BirthdayVC.swift in Sources */,
+				C65CAE5124C4A12500FE3274 /* AppDelegate.swift in Sources */,
+				C65CAE5B24C4A12600FE3274 /* My_Pills_.xcdatamodeld in Sources */,
+				C65CAE9724C4A1B800FE3274 /* AddViewcontroller.swift in Sources */,
+				C65CAE9F24C4A1B800FE3274 /* ViewController.swift 15-02-17-346.swift in Sources */,
+				C65CAE9524C4A1B800FE3274 /* SecondViewController.swift in Sources */,
+				C65CAE9C24C4A1B800FE3274 /* File.swift in Sources */,
+				C65CAE9E24C4A1B800FE3274 /* FirstViewController.swift in Sources */,
+				C65CAE5324C4A12500FE3274 /* SceneDelegate.swift in Sources */,
+				C65CAE9824C4A1B800FE3274 /* TimePopupVC.swift in Sources */,
+				C65CAE9A24C4A1B800FE3274 /* CalenderVC.swift in Sources */,
+				C65CAE9424C4A1B800FE3274 /* DatePopupVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C65CAE6224C4A12C00FE3274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C65CAE6B24C4A12C00FE3274 /* My_Pills_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C65CAE6D24C4A12C00FE3274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C65CAE7624C4A12C00FE3274 /* My_Pills_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C65CAE6824C4A12C00FE3274 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C65CAE4C24C4A12500FE3274 /* My Pills! */;
+			targetProxy = C65CAE6724C4A12C00FE3274 /* PBXContainerItemProxy */;
+		};
+		C65CAE7324C4A12C00FE3274 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C65CAE4C24C4A12500FE3274 /* My Pills! */;
+			targetProxy = C65CAE7224C4A12C00FE3274 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C65CAE5624C4A12500FE3274 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C65CAE5724C4A12500FE3274 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C65CAE5E24C4A12C00FE3274 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C65CAE5F24C4A12C00FE3274 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C65CAE7824C4A12C00FE3274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C65CAE7924C4A12C00FE3274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C65CAE7B24C4A12C00FE3274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AHB4H6PTC;
+				INFOPLIST_FILE = "My Pills!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fatimah.My-Pills-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C65CAE7C24C4A12C00FE3274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AHB4H6PTC;
+				INFOPLIST_FILE = "My Pills!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fatimah.My-Pills-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C65CAE7E24C4A12C00FE3274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AHB4H6PTC;
+				INFOPLIST_FILE = "My Pills!Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fatimah.My-Pills-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Pills!.app/My Pills!";
+			};
+			name = Debug;
+		};
+		C65CAE7F24C4A12C00FE3274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AHB4H6PTC;
+				INFOPLIST_FILE = "My Pills!Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fatimah.My-Pills-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Pills!.app/My Pills!";
+			};
+			name = Release;
+		};
+		C65CAE8124C4A12C00FE3274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AHB4H6PTC;
+				INFOPLIST_FILE = "My Pills!UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fatimah.My-Pills-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "My Pills!";
+			};
+			name = Debug;
+		};
+		C65CAE8224C4A12C00FE3274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AHB4H6PTC;
+				INFOPLIST_FILE = "My Pills!UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fatimah.My-Pills-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "My Pills!";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C65CAE4824C4A12500FE3274 /* Build configuration list for PBXProject "My Pills!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C65CAE7824C4A12C00FE3274 /* Debug */,
+				C65CAE7924C4A12C00FE3274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C65CAE7A24C4A12C00FE3274 /* Build configuration list for PBXNativeTarget "My Pills!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C65CAE7B24C4A12C00FE3274 /* Debug */,
+				C65CAE7C24C4A12C00FE3274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C65CAE7D24C4A12C00FE3274 /* Build configuration list for PBXNativeTarget "My Pills!Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C65CAE7E24C4A12C00FE3274 /* Debug */,
+				C65CAE7F24C4A12C00FE3274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C65CAE8024C4A12C00FE3274 /* Build configuration list for PBXNativeTarget "My Pills!UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C65CAE8124C4A12C00FE3274 /* Debug */,
+				C65CAE8224C4A12C00FE3274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C65CAE5924C4A12600FE3274 /* My_Pills_.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C65CAE5A24C4A12600FE3274 /* My_Pills_.xcdatamodel */,
+			);
+			currentVersion = C65CAE5A24C4A12600FE3274 /* My_Pills_.xcdatamodel */;
+			path = My_Pills_.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C65CAE4524C4A12500FE3274 /* Project object */;
+}
