@@ -22,12 +22,13 @@
 		C65CAE9724C4A1B800FE3274 /* AddViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE8924C4A1B700FE3274 /* AddViewcontroller.swift */; };
 		C65CAE9824C4A1B800FE3274 /* TimePopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE8A24C4A1B700FE3274 /* TimePopupVC.swift */; };
 		C65CAE9924C4A1B800FE3274 /* File3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE8B24C4A1B700FE3274 /* File3.swift */; };
-		C65CAE9A24C4A1B800FE3274 /* CalenderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE8C24C4A1B700FE3274 /* CalenderVC.swift */; };
 		C65CAE9B24C4A1B800FE3274 /* BirthdayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE8D24C4A1B700FE3274 /* BirthdayVC.swift */; };
 		C65CAE9C24C4A1B800FE3274 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE8E24C4A1B800FE3274 /* File.swift */; };
 		C65CAE9D24C4A1B800FE3274 /* File2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE8F24C4A1B800FE3274 /* File2.swift */; };
 		C65CAE9E24C4A1B800FE3274 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE9024C4A1B800FE3274 /* FirstViewController.swift */; };
 		C65CAE9F24C4A1B800FE3274 /* ViewController.swift 15-02-17-346.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE9124C4A1B800FE3274 /* ViewController.swift 15-02-17-346.swift */; };
+		C65CAEA724C4C00E00FE3274 /* YourPillsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65CAEA624C4C00E00FE3274 /* YourPillsVC.swift */; };
+		C65CAEA924C4C57700FE3274 /* toReminderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65CAEA824C4C57700FE3274 /* toReminderTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,12 +70,13 @@
 		C65CAE8924C4A1B700FE3274 /* AddViewcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddViewcontroller.swift; path = "../../../View Controllers/AddViewcontroller.swift"; sourceTree = "<group>"; };
 		C65CAE8A24C4A1B700FE3274 /* TimePopupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimePopupVC.swift; path = "../../../View Controllers/TimePopupVC.swift"; sourceTree = "<group>"; };
 		C65CAE8B24C4A1B700FE3274 /* File3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = File3.swift; path = "../../../View Controllers/File3.swift"; sourceTree = "<group>"; };
-		C65CAE8C24C4A1B700FE3274 /* CalenderVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalenderVC.swift; path = "../../../View Controllers/CalenderVC.swift"; sourceTree = "<group>"; };
 		C65CAE8D24C4A1B700FE3274 /* BirthdayVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BirthdayVC.swift; path = "../../../View Controllers/BirthdayVC.swift"; sourceTree = "<group>"; };
 		C65CAE8E24C4A1B800FE3274 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = File.swift; path = "../../../View Controllers/File.swift"; sourceTree = "<group>"; };
 		C65CAE8F24C4A1B800FE3274 /* File2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = File2.swift; path = "../../../View Controllers/File2.swift"; sourceTree = "<group>"; };
 		C65CAE9024C4A1B800FE3274 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = "../../../View Controllers/FirstViewController.swift"; sourceTree = "<group>"; };
 		C65CAE9124C4A1B800FE3274 /* ViewController.swift 15-02-17-346.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ViewController.swift 15-02-17-346.swift"; path = "../../../View Controllers/ViewController.swift 15-02-17-346.swift"; sourceTree = "<group>"; };
+		C65CAEA624C4C00E00FE3274 /* YourPillsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourPillsVC.swift; sourceTree = "<group>"; };
+		C65CAEA824C4C57700FE3274 /* toReminderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toReminderTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,7 +168,6 @@
 			children = (
 				C65CAE8924C4A1B700FE3274 /* AddViewcontroller.swift */,
 				C65CAE8D24C4A1B700FE3274 /* BirthdayVC.swift */,
-				C65CAE8C24C4A1B700FE3274 /* CalenderVC.swift */,
 				C65CAE8624C4A1B700FE3274 /* DatePopupVC.swift */,
 				C65CAE8E24C4A1B800FE3274 /* File.swift */,
 				C65CAE8F24C4A1B800FE3274 /* File2.swift */,
@@ -177,6 +178,8 @@
 				C65CAE8724C4A1B700FE3274 /* SecondViewController.swift */,
 				C65CAE8A24C4A1B700FE3274 /* TimePopupVC.swift */,
 				C65CAE9124C4A1B800FE3274 /* ViewController.swift 15-02-17-346.swift */,
+				C65CAEA624C4C00E00FE3274 /* YourPillsVC.swift */,
+				C65CAEA824C4C57700FE3274 /* toReminderTableViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -343,16 +346,17 @@
 				C65CAE9624C4A1B800FE3274 /* PillsSettingVC.swift in Sources */,
 				C65CAE9D24C4A1B800FE3274 /* File2.swift in Sources */,
 				C65CAE9B24C4A1B800FE3274 /* BirthdayVC.swift in Sources */,
+				C65CAEA924C4C57700FE3274 /* toReminderTableViewController.swift in Sources */,
 				C65CAE5124C4A12500FE3274 /* AppDelegate.swift in Sources */,
 				C65CAE5B24C4A12600FE3274 /* My_Pills_.xcdatamodeld in Sources */,
 				C65CAE9724C4A1B800FE3274 /* AddViewcontroller.swift in Sources */,
+				C65CAEA724C4C00E00FE3274 /* YourPillsVC.swift in Sources */,
 				C65CAE9F24C4A1B800FE3274 /* ViewController.swift 15-02-17-346.swift in Sources */,
 				C65CAE9524C4A1B800FE3274 /* SecondViewController.swift in Sources */,
 				C65CAE9C24C4A1B800FE3274 /* File.swift in Sources */,
 				C65CAE9E24C4A1B800FE3274 /* FirstViewController.swift in Sources */,
 				C65CAE5324C4A12500FE3274 /* SceneDelegate.swift in Sources */,
 				C65CAE9824C4A1B800FE3274 /* TimePopupVC.swift in Sources */,
-				C65CAE9A24C4A1B800FE3274 /* CalenderVC.swift in Sources */,
 				C65CAE9424C4A1B800FE3274 /* DatePopupVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -528,7 +532,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3AHB4H6PTC;
-				INFOPLIST_FILE = "My Pills!/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/My Pills!/stuff/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -546,7 +550,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3AHB4H6PTC;
-				INFOPLIST_FILE = "My Pills!/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/My Pills!/stuff/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
